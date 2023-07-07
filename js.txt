@@ -1,0 +1,104 @@
+1. What is JavaScript? 
+And: Javascript is a lightweight, cross-platform, and interpreted scripting language. it is well-known for the development webpages,
+     many non- browser environments also use it.
+
+2. What is the use of isNaN function?
+Ans: Definition and Usage
+   ⮚ In javaScript Nan is short for “Not-a-Number”.
+   ⮚ The is Nan() method returns true if a value is NaN.
+   ⮚ The is NaN() method converts the value to a number before testing it.
+
+3. What is negative Infinity?
+Ans: The negative infinity in JavaScript is a constant value which is used to represent a value which is the lowest available. This means            that no other number is lesser than this value. It can be generated using a self-made function or by an arithmeti operation.
+
+4. Which company developed JavaScript?
+Ans: JavaScript is a scripting language developed by Netscape. It can be used to program web browser or even servers. It can dynamically    update the contents of the webpage, which is the beauty of JavaScript.
+
+5. What are undeclared and undefined variables?
+Ans: Undefined variable means a variable has been declared but does not have a value.
+     Undeclared variable means that the variable does not exist in the program at all.
+
+6. Write the code for adding new elements dynamically?
+Ans: the create element() method in JavaScript can be used to create new items dynamically. The setattribute() method is used to set the attributes of the newly generated element. By clicking a biutton, a modal box appears and collects the required information dynamically.
+
+7. What is the difference between ViewState and SessionState? 
+Ans: View State:
+     Maintained at page level only.
+     View state can only be visible from a single page and not multiple pages.
+     It will retain values in the event of a postback operation occurring.
+     Information is stored on the client’s end only.
+     used to allow the persistence of page-instance-specific data.
+     ViewState values are lost/cleared when new page is loaded.
+
+  Session State:
+  Maintained at session level.
+  Session state value availability is across all pages available in a user session.
+  In session state, user data remains in the server. Data is available to user until the browser is closed or there is session expiration.
+  Information is stored on the server.
+  used for the persistence of user-specific data on the server’s end.
+  SessionState can be cleared by programmer or user or in case of timeouts.
+
+8. What is === operator?
+ans: The Strict equality operator (===) checks whether its two operands are equal,returning a boolean result. unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+9. How can the style/class of an element be changed? 
+Ans: 1: Changing CSS with the help of the style property:
+
+         Syntax:
+	document.getElementById("id").style.property = new_style
+
+	Example: 
+	In this example, we have built a PAN number validator. First, we will take the input value and match it with a regex pattern. If it matches 	then using JavaScript add an inline style on the <p> tag. Otherwise, add a different style on the <p> tag.
+
+2. The className Property: This property is used to set the current class of the element to the specified class.
+
+     Syntax:
+     document.getElementById("id").className = class
+
+10.	How to read and write a file using JavaScript?
+Ans. Reading from the file
+
+	After the File System module is imported, the reading of the file in JavaScript can be done by using the readFile() function.
+Syntax
+	The syntax to read from a file is as follows −
+	readFile(path, format, callBackFunc)
+	The readFile() function accepts three parameters including one optional parameter.
+Path:
+	 The first parameter is the path of the test file from which the contents are to read. If the current location or directory is the same 	directory where the file which is to be opened and read is located then, only the file name has to be given.
+Format :
+	 The second parameter is the optional parameter which is the format of the text file. The format can be ASCII, utf-8 etc.
+	CallBackFunc − The third parameter is the call back function which takes the error as the parameter and displays the fault is any raised 	due to the error.
+
+11. What are all the looping structures in JavaScript?
+Ans.JavaScript supports different kinds of loops:
+- for - loops through a block of code a number of times.
+- for/in - loops through the properties of an object.
+- for/of - loops through the values of an iterable object.
+- while - loops through a block of code while a specified condition is true.
+
+12. How can you convert the string of any base to an integer in JavaScript?
+Ans: To convert a string to an integer parseint(), Number(), and unary operator(+) function is used in javascript. parseint() function returns Nan(not a number) when the string doesn't contain number. if a string with a number is sent, then only that number will be returned as the output.
+
+13. What is the function of the delete operator?
+Ans: The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object held by that property is eventually released automatically.
+
+14. What are all the types of Pop up boxes available in JavaScript?
+And: In Javascript, popup boxes are used to display the message or notification to the user.JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+15. What is the use of Void (0)?
+Ans: Using “javascript:void(0);” in anchor tag: Writing “javascript:void(0);” in anchor tag can prevent the page to reload and JavaScript functions can be called on single or double clicks easily. 
+
+16. How can a page be forced to load another page in JavaScript? 
+Ans: In JavaScript, we can use window. location object to force a page to load another page. We can use the location object to set the ULR of a new page.
+
+17. What are the disadvantages of using inner HTML in JavaScript?
+Ans: Disadvantages of inner HTML:
+It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. When we have used the event handlers are not automatically attached to the new element created by innerHTML.
+
+
+
+
+
+
+
+
